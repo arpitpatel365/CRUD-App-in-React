@@ -60,7 +60,7 @@ function ToDoFunction() {
 
     return (
         <React.Fragment>
-
+                <h1>CRUD Application</h1>
             <input placeholder="Enter data" onChange={handleChange} value={mydata} />
             <button onClick={handleClick} >ADD</button>
 
